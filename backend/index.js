@@ -4,6 +4,7 @@ const multer = require("multer");
 const express = require("express");
 const mongoose = require("mongoose");
 const userModel = require("./db/User");
+const fileModel = require("./db/File");
 
 const { ObjectId } = require("mongoose");
 
@@ -13,7 +14,6 @@ const crypto = require("crypto");
 const cors = require("cors");
 const bcrypt = require("bcryptjs");
 const JWT = require("jsonwebtoken");
-const fileModel = require("./db/File");
 
 const app = express();
 
@@ -379,7 +379,7 @@ app.post("/update-books/:id", async (req, res) => {
 
   let data = await fileModel.updateOne(
     { _id: ObjectId(req.params.id) },
-    { $set:  req.body  }
+    { $set: req.body }
   );
 
   res.send(data);
