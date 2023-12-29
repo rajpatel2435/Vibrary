@@ -32,5 +32,8 @@ Contributions are welcome! If you have ideas or find bugs, please submit an issu
 
 Dive into the world of reading with Vibrary!
 
-https://github.com/rajpatel2435/Vibrary/blob/master/vib.mp4
+
+Watch a project video!!!!
+
+https://github.com/rajpatel2435/Vibrary/assets/81604941/10977d0d-b0d4-4e59-bc50-456292ce47b2
 
